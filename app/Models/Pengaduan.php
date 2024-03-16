@@ -12,9 +12,10 @@ class Pengaduan extends Model
     protected $table = 'pengaduans';
 
     protected $fillable = [
+        'nik',
+        'nama',
         'aduan',
         'tanggal',
         'status',
-        'user_id',
     ];
 }
