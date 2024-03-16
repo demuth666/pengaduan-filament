@@ -12,7 +12,7 @@ return new class extends Migration {
     {
         Schema::create('pengaduans', function (Blueprint $table) {
             $table->id();
-            $table->string('nik')->unique();
+            $table->string('nik');
             $table->string('nama');
             $table->string('aduan');
             $table->date('tanggal');
